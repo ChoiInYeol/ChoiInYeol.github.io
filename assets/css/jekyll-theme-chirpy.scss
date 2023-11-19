@@ -4,6 +4,7 @@
 @import 'main';
 
 /* append your custom style below */
+<<<<<<< HEAD
 @font-face {
     font-family: 'Pretendard';  /* 원하는 글꼴 이름으로 변경하세요 */
     src: url('./Pretendard-Regular.otf') format('opentype');  /* 경로와 파일 확장자에 맞게 변경하세요 */
@@ -32,3 +33,5 @@ body {
     font-family: 'Pretendard', sans-serif;  /* 위에서 설정한 글꼴 이름으로 변경하세요 */
     line-height: 1.8  /* 기본값보다 넓은 간격 */
 }
+=======
+>>>>>>> 3ed5eb1ee005122b798b001c352f1086e1901740
