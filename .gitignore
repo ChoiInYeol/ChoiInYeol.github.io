@@ -16,7 +16,9 @@ package-lock.json
 
 # IDE configurations
 .idea
-.vscode
 
 # Misc
 # assets/js/dist
+*.map
+sw.min.js
+assets/js/dist
