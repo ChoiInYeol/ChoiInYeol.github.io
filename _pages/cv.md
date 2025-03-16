@@ -9,56 +9,124 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 학력
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* M.S. in Artificial Intelligence, 경희대학교, 2025
+  * GPA: 4.08/4.3
+  * 지도교수: 김영훈 교수
+  * 논문: "Two-Stage Portfolio Optimization Framework Using CNN-Based Stock Chart Analysis"
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* B.S. in Software Convergence, 경희대학교, 2023
+  * GPA: 3.527/4.3
+  * 졸업논문: "딥러닝 네트워크를 활용한 주식 가격 결정 모델"
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 병역
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 육군 현역 (2019.08.05 ~ 2021.02.25)
+  * 병장 만기전역
+
+## 연구 실적
+
+### 학위논문
+* "Two-Stage Portfolio Optimization Framework Using CNN-Based Stock Chart Analysis." 국내석사학위논문 경희대학교 대학원, 2025
+
+### 학술논문
+* "딥러닝 네트워크를 활용한 주식 가격 결정 모델." 대한산업공학회 춘계공동학술대회논문집 2023.5 (2023): 3825-3830
+
+## 연구 관심사
+
+* 금융공학
+  * 퀀트 투자 전략 개발
+* 인공지능/기계학습
+  * 자연어 처리를 통한 감성분석
+* 데이터 분석
+  * 금융 시계열 데이터 분석
+  * 멀티모달 데이터 처리
+
+## 자격증
+
+* 투자자산운용사 (2024.11)
+  * 발행기관: 한국금융투자협회
+* ADsP(데이터분석준전문가) (2022.03)
+  * 발행기관: 한국데이터산업진흥원
+
+## 수상경력
+
+* 서울시빅데이터캠퍼스 공모전 우수상 (2022.11)
+  * 주관: 서울특별시
+  * 주제: MCLP 알고리즘을 활용한 공공심야약국 최적 입지 선정
+
+* 산업공학 홍보영상 공모전 우수상 (2022.11)
+  * 주관: 대한산업공학회
+  * 주제: 산업공학과 소프트웨어 접목의 중요성
+
+* 2021 인터넷윤리 창작콘텐츠 공모전 장려상 (2021.11)
+  * 주관: 한국지능정보사회진흥처
+  * 주제: NLP를 활용한 유튜브 댓글 혐오표현 분석
+
+* 제2회 육군창업경진대회 창의상 (2019.12)
+  * 주관: 한국경제신문사
+  * 주제: 시계형 지혈대 아이디어 제안
+
+## 전문 경력
+
+### 학회/동아리 리더십
+
+* FIND-A 회장 (2024.07 ~ 현재)
+  * 금융데이터분석 연합학회 운영 및 관리
+  * 학회원 40명 이상 관리
+  * 주간 스터디 및 프로젝트 운영
+
+* U.FE.A 팀장 (2023.07 ~ 2024.05)
+  * 금융공학 연합학회 활동
+  * 팀 프로젝트 리딩
+
+* 경희대학교 소프트웨어융합대학 학생회장 (2022.03 ~ 2022.12)
+  * 1,000명 이상의 단과대학 학생회 운영
+  * 학생 복지 사업 기획 및 실행
+  * 대학 행정부서와의 협력 관계 구축
+
+* KHUDA 부회장 (2022.03 ~ 2022.06)
+  * 데이터분석동아리 창설 및 운영
+  * 주간 스터디 프로그램 기획
+  * 교내 데이터 분석 프로젝트 주도
+
+* 소융튜브 회장 (2021.03 ~ 2021.12)
+  * SW유튜브 동아리 운영
+  * 콘텐츠 기획 및 제작 총괄
+  * 팀원 교육 및 관리
+
+### 인턴십
+
+* 중소기업은행 개인디지털채널부 청년인턴 (2023.01 ~ 2023.02)
+  * 슈퍼 앱 UI/UX 리서치 및 분석
+  * 경쟁사 벤치마킹 보고서 작성
+  * 사용자 경험 개선 제안
+
+### 봉사활동
+
+* 현대차 정몽구재단 봉사단원 (2022.01)
+  * 온드림스쿨 다빈치교실 교육봉사
+  * 초등학생 대상 코딩 교육 (40시간)
+
+* JA KOREA 봉사단원 (2021.05)
+  * 코딩캠퍼스 교육봉사
+  * 중학생 대상 SW 교육 (32시간)
+
+## 기술 스택
+
+* 프로그래밍 언어
+  * Python, C++
+
+* 프레임워크/라이브러리
+  * PyTorch
+  * pandas, numpy, scikit-learn
+
+* 개발 도구
+  * Git, Docker
+  * VS Code, Cursor
+
+## 언어
+
+* 한국어 (모국어)
+* 영어 (업무 가능)

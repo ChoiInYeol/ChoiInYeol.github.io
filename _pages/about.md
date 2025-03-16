@@ -1,49 +1,101 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "최인열 블로그"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## 소개
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+안녕하세요! 저는 금융공학과 AI를 연구하는 최인열입니다.
+현재 경희대학교 인공지능학과 석사과정를 졸업했으며, 금융 데이터 분석과 AI 모델 개발에 관심을 가지고 연구하고 있습니다.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## 학력
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* 경희대학교 대학원 인공지능학과 석사과정 (2023.09 ~ 2025.02)
+  * GPA: 4.08/4.3
+* 경희대학교 소프트웨어융합학과 학사 (2018.03 ~ 2023.08)
+  * GPA: 3.527/4.3
+* 대신고등학교 (2015.03 ~ 2018.02)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 병역
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* 육군 현역 (2019.08.05 ~ 2021.02.25)
 
-**Markdown generator**
+## 연구 실적
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### 학위논문
+* "Two-Stage Portfolio Optimization Framework Using CNN-Based Stock Chart Analysis." 국내석사학위논문 경희대학교 대학원, 2025
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 학술논문
+* "딥러닝 네트워크를 활용한 주식 가격 결정 모델." 대한산업공학회 춘계공동학술대회논문집 2023.5 (2023): 3825-3830
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## 연구 관심사
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* 금융공학
+  * 퀀트 투자 전략
+  * 파생상품 가격결정
+  * 리스크 관리
+* AI/ML
+  * 강화학습을 통한 트레이딩 시스템
+  * 자연어 처리를 이용한 감성분석
+* 데이터 분석
+  * 금융 시계열 분석
+  * 멀티모달 데이터 처리
+
+## 자격증
+
+* 투자자산운용사, 한국금융투자협회 (2024.11)
+* ADsP(데이터분석준전문가), 한국데이터산업진흥원 (2022.03)
+
+## 수상경력
+
+* 서울시빅데이터캠퍼스 공모전 우수상, 서울특별시 (2022.11)
+  * MCLP 알고리즘을 활용한 공공심야약국 최적 입지 선정
+* 산업공학 홍보영상 공모전 우수상, 대한산업공학회 (2022.11)
+  * 산업공학과 소프트웨어 접목의 중요성 주제
+* 2021 인터넷윤리 창작콘텐츠 공모전 장려상, 한국지능정보사회진흥처 (2021.11)
+  * NLP를 활용한 유튜브 댓글 혐오표현 분석
+* 제2회 육군창업경진대회 창의상, 한국경제신문사 (2019.12)
+  * 시계형 지혈대 아이디어 제안
+
+## 주요 활동
+
+### 학회/동아리 활동
+* FIND-A 회장 (2024.07 ~ 현재)
+  * 금융데이터분석 연합학회 운영
+* U.FE.A 팀장 (2023.07 ~ 2024.05)
+  * 금융공학 연합학회 활동
+* 경희대학교 소프트웨어융합대학 학생회장 (2022.03 ~ 2022.12)
+  * 단과대학 학생회 운영
+* KHUDA 부회장 (2022.03 ~ 2022.06)
+  * 데이터분석동아리 창설 및 운영
+* 소융튜브 회장 (2021.03 ~ 2021.12)
+  * SW유튜브 동아리 운영
+
+### 인턴십
+* 중소기업은행 개인디지털채널부 청년인턴 (2023.01 ~ 2023.02)
+  * 슈퍼 앱 UI/UX 리서치
+
+### 봉사활동
+* 현대차 정몽구재단 봉사단원 (2022.01, 40시간)
+  * 온드림스쿨 다빈치교실 교육봉사
+* JA KOREA 봉사단원 (2021.05, 32시간)
+  * 코딩캠퍼스 교육봉사
+
+## 연락처
+
+* 이메일: chldlsel@khu.ac.kr
+* GitHub: [ChoiInYeol](https://github.com/ChoiInYeol)
+* LinkedIn: [in-yeol-choi](https://www.linkedin.com/in/in-yeol-choi)
+
+## 블로그 소개
+
+이 블로그는 제가 연구하고 공부한 내용을 정리하고 공유하는 공간입니다. 주로 다음과 같은 내용을 다룹니다:
+
+* 금융공학 연구 내용
+* AI/ML 프로젝트 경험
+* 개발 관련 팁과 노하우
+* 학습 과정에서의 인사이트
