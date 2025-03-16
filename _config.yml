@@ -13,7 +13,7 @@ title                    : "InYeol Choi"
 title_separator          : "-"
 name                     : &name "InYeol Choi"
 description              : &description "Quantitative Researcher"
-url                      : https://inyeolchoi.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ChoiInYeol.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ChoiInYeol/ChoiInYeol.github.io"
 
@@ -28,7 +28,7 @@ author:
   bio              : "Quantitative Researcher"
   location         : "Seoul, Korea"
   employer         : "Kyung Hee University"
-  uri              : "https://inyeolchoi.github.io"
+  uri              : "https://ChoiInYeol.github.io"
   email            : "chldlsel@khu.ac.kr" 
 
   # Academic websites
