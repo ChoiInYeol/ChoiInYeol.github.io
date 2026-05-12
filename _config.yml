@@ -114,9 +114,9 @@ comments:
   # and the giscus GitHub app installed: https://github.com/apps/giscus
   giscus:
     repo                 : "ChoiInYeol/ChoiInYeol.github.io"
-    repo_id              : # paste from giscus.app
+    repo_id              : "R_kgDOOJixQw"
     category             : "Comments"      # Discussions category name
-    category_id          : # paste from giscus.app
+    category_id          : "DIC_kwDOOJixQ84C836_"
     mapping              : "pathname"      # "pathname" | "url" | "title" | "og:title" | "specific" | "number"
     strict               : "0"
     reactions_enabled    : "1"
