@@ -1,152 +1,215 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Inyeol Choi (최인열)",
+    "email": "chldlsel@khu.ac.kr",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://choiinyeol.github.io",
+    "summary": "Quant AI Researcher at Qraft Technologies. M.S. in Artificial Intelligence at Kyung Hee University (2025). Research at the intersection of deep learning and finance — empirical asset pricing, portfolio optimization, and prediction-market microstructure.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Seoul",
+      "countryCode": "KR",
       "region": ""
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      { "network": "GitHub", "username": "ChoiInYeol", "url": "https://github.com/ChoiInYeol" },
+      { "network": "LinkedIn", "username": "in-yeol-choi", "url": "https://www.linkedin.com/in/in-yeol-choi" },
+      { "network": "Blog", "username": "ChoiInYeol", "url": "https://choiinyeol.github.io" }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Qraft Technologies",
+      "position": "Quant AI Researcher",
+      "website": "https://www.qraftec.com",
+      "startDate": "2025-03",
+      "endDate": "",
+      "summary": "Building deep asset pricing and portfolio optimization systems for AI-driven asset management.",
+      "highlights": []
+    },
+    {
+      "company": "IBK 기업은행",
+      "position": "청년인턴 · 개인디지털채널부",
+      "website": "https://www.ibk.co.kr",
+      "startDate": "2023-01",
+      "endDate": "2023-02",
+      "summary": "슈퍼 앱 UI/UX 리서치",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Kyung Hee University",
+      "area": "Artificial Intelligence",
+      "studyType": "M.S.",
+      "startDate": "2023-09",
+      "endDate": "2025-02",
+      "gpa": "4.08 / 4.3",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
+      "institution": "Kyung Hee University",
+      "area": "Software Convergence",
+      "studyType": "B.S.",
+      "startDate": "2018-03",
+      "endDate": "2023-08",
+      "gpa": "3.527 / 4.3",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Daesin High School",
+      "area": "",
+      "studyType": "High School",
+      "startDate": "2015-03",
+      "endDate": "2018-02",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "awards": [
+    {
+      "title": "우수상 — 서울시 빅데이터 캠퍼스 공모전",
+      "date": "2022-11",
+      "awarder": "서울특별시",
+      "summary": "MCLP 알고리즘을 활용한 공공심야약국 최적 입지 선정"
+    },
+    {
+      "title": "우수상 — 산업공학 홍보영상 공모전",
+      "date": "2022-11",
+      "awarder": "대한산업공학회",
+      "summary": "산업공학과 소프트웨어 접목의 중요성 주제"
+    },
+    {
+      "title": "장려상 — 인터넷윤리 창작콘텐츠 공모전",
+      "date": "2021-11",
+      "awarder": "한국지능정보사회진흥원",
+      "summary": "NLP를 활용한 유튜브 댓글 혐오표현 분석"
+    },
+    {
+      "title": "창의상 — 제2회 육군창업경진대회",
+      "date": "2019-12",
+      "awarder": "한국경제신문사",
+      "summary": "시계형 지혈대 아이디어 제안"
+    }
+  ],
+  "certificates": [
+    { "name": "투자자산운용사", "date": "2024-11", "issuer": "한국금융투자협회", "url": "" },
+    { "name": "ADsP (데이터분석준전문가)", "date": "2022-03", "issuer": "한국데이터산업진흥원", "url": "" }
+  ],
+  "skills": [
+    {
+      "name": "Deep Learning",
+      "level": "Advanced",
+      "keywords": ["PyTorch", "TensorFlow", "CNN", "Transformer", "Autoencoder"]
+    },
+    {
+      "name": "Quantitative Finance",
+      "level": "Advanced",
+      "keywords": ["Empirical Asset Pricing", "Portfolio Optimization", "Backtesting", "Factor Models"]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "Intermediate",
+      "keywords": ["pandas", "Polars", "DuckDB", "PostgreSQL"]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "keywords": ["Python", "SQL", "Git", "Linux", "Docker"]
+    }
+  ],
+  "languages": [
+    { "language": "Korean", "fluency": "Native" },
+    { "language": "English", "fluency": "Professional working" }
+  ],
+  "interests": [
+    {
+      "name": "Quantitative Finance",
+      "keywords": ["asset pricing", "portfolio optimization", "factor models", "risk management"]
+    },
+    {
+      "name": "Deep Learning for Finance",
+      "keywords": ["reinforcement learning for trading", "NLP for sentiment analysis", "computer vision on charts"]
+    },
+    {
+      "name": "Alternative Data",
+      "keywords": ["prediction markets", "financial time series", "multimodal data"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Two-Stage Portfolio Optimization Framework Using CNN-Based Stock Chart Analysis",
+      "publisher": "Kyung Hee University Graduate School",
+      "releaseDate": "2025-02-19",
+      "website": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=904a75c30317a6b5ffe0bdc3ef48d419",
+      "summary": "M.S. thesis — Two-stage framework combining CNN-based chart image scoring and portfolio-level allocation."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "딥러닝 네트워크를 활용한 주식 가격 결정 모델",
+      "publisher": "대한산업공학회 춘계공동학술대회논문집",
+      "releaseDate": "2023-05-15",
+      "website": "https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=df3837feed728c3bd18150b21a227875",
+      "summary": "Empirical asset pricing on KOSPI using an autoencoder-style deep factor model (Gu, Kelly, Xiu 2021 framework)."
     }
   ],
-  "presentations": [
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [],
+  "volunteer": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "organization": "현대차 정몽구재단",
+      "position": "봉사단원",
+      "startDate": "2022-01",
+      "endDate": "2022-01",
+      "summary": "온드림스쿨 다빈치교실 교육봉사 (40시간)"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "organization": "JA KOREA",
+      "position": "봉사단원",
+      "startDate": "2021-05",
+      "endDate": "2021-05",
+      "summary": "코딩캠퍼스 교육봉사 (32시간)"
     }
   ],
-  "teaching": [
+  "activities": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "organization": "FIND-A — 금융데이터분석 연합학회",
+      "position": "회장",
+      "startDate": "2024-07",
+      "endDate": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "organization": "U.FE.A — 금융공학 연합학회",
+      "position": "팀장",
+      "startDate": "2023-07",
+      "endDate": "2024-05"
+    },
+    {
+      "organization": "경희대학교 소프트웨어융합대학 학생회",
+      "position": "학생회장",
+      "startDate": "2022-03",
+      "endDate": "2022-12"
+    },
+    {
+      "organization": "KHUDA — 데이터분석 동아리 (창설)",
+      "position": "부회장",
+      "startDate": "2022-03",
+      "endDate": "2022-06"
+    },
+    {
+      "organization": "소융튜브 — SW 유튜브 동아리",
+      "position": "회장",
+      "startDate": "2021-03",
+      "endDate": "2021-12"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "military": {
+    "branch": "Republic of Korea Army",
+    "rank": "병장 (Sergeant)",
+    "startDate": "2019-08-05",
+    "endDate": "2021-02-25",
+    "summary": "만기전역"
+  }
 }
