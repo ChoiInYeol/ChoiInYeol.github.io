@@ -5,8 +5,9 @@ category: manuscripts
 permalink: /publication/2023-05-15-Asset-pricing-models-using-deep-learning-networks
 excerpt: '딥러닝 네트워크를 활용하여 한국 주식 시장의 자산 가격 결정 모델을 구현한 연구입니다.'
 date: 2023-05-15
+venue: '대한산업공학회 춘계공동학술대회논문집'
 paperurl: 'https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=df3837feed728c3bd18150b21a227875&keyword=%EC%B5%9C%EC%9D%B8%EC%97%B4'
-citation: 'Choi, I. Y. (2024). &quot;딥러닝 네트워크를 활용한 주식 가격 결정 모델.&quot;'
+citation: '최인열. (2023). &quot;딥러닝 네트워크를 활용한 주식 가격 결정 모델.&quot; <i>대한산업공학회 춘계공동학술대회논문집</i>, 3825-3830.'
 ---
 
 ## 연구 개요
