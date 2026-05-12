@@ -100,7 +100,7 @@ future                   : false
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -109,6 +109,21 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+  # Giscus (rendered by _includes/comments-providers/custom.html)
+  # Configure via https://giscus.app — requires Discussions enabled on the repo
+  # and the giscus GitHub app installed: https://github.com/apps/giscus
+  giscus:
+    repo                 : "ChoiInYeol/ChoiInYeol.github.io"
+    repo_id              : # paste from giscus.app
+    category             : "Comments"      # Discussions category name
+    category_id          : # paste from giscus.app
+    mapping              : "pathname"      # "pathname" | "url" | "title" | "og:title" | "specific" | "number"
+    strict               : "0"
+    reactions_enabled    : "1"
+    emit_metadata        : "0"
+    input_position       : "bottom"        # "top" | "bottom"
+    theme                : "preferred_color_scheme"
+    lang                 : "ko"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
